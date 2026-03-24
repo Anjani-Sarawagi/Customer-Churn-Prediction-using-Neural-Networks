@@ -41,18 +41,14 @@ Input → Dense(128, ReLU) → Dense(32, ReLU) → Dense(1, Sigmoid)
 Achieved good accuracy on training and validation data [79.75 %]
 Model successfully predicts customer churn
 
-▶️ How to Run
-git clone <your-repo-link>
-cd <repo-name>
-pip install -r requirements.txt
-python main.py
-
 📁 Dataset
 Customer data including:
 Geography
 Gender
 Credit score
 Balance
+Number of Products
+Estimated Salary
 Tenure, etc.
 
 🎯 Future Improvements
